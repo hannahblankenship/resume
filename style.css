@@ -2,6 +2,10 @@ body {
   background-color: magenta;
 }
 
+* {
+        box-sizing: border-box;
+      }
+
 .column {
         float: left;
         padding: 10px;
@@ -20,3 +24,7 @@ body {
         display: table;
         clear: both;
       }
+
+p:hover {
+       background-color: yellow;
+}
