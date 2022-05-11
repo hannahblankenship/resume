@@ -3,54 +3,54 @@ $(document).ready(function(){
   /* WD AM Experiences*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ss1a').css('background-color','magenta');
-    $('#sw7').css('background-color','magenta');
-    $('#sw8').css('background-color','magenta');
+    $('#ssc').css('background-color','magenta');
+    $('#swm').css('background-color','magenta');
+    $('#sws').css('background-color','magenta');
   },
   function(){
-    $('#ss1a').css('background-color','transparent');
-    $('#sw7').css('background-color','transparent');
-    $('#sw8').css('background-color','transparent');
+    $('#ssc').css('background-color','transparent');
+    $('#swm').css('background-color','transparent');
+    $('#sws').css('background-color','transparent');
   });
   
   /* EX 2 */
   $('.ex2').hover(function(){
-    $('#ss1a').css('background-color','magenta');
-    $('#ss1').css('background-color','magenta');
-    $('#ss2').css('background-color','magenta');
-    $('#sw7').css('background-color','magenta');
-    $('#sw8').css('background-color','magenta');
+    $('#ssc').css('background-color','magenta');
+    $('#ssl').css('background-color','magenta');
+    $('#sspro').css('background-color','magenta');
+    $('#swm').css('background-color','magenta');
+    $('#sws').css('background-color','magenta');
   },
   function(){
-    $('#ss1a').css('background-color','transparent');
-    $('#ss1').css('background-color','transparent');
-    $('#ss2').css('background-color','transparent');
-    $('#sw7').css('background-color','transparent');
-    $('#sw8').css('background-color','transparent');
+    $('#ssc').css('background-color','transparent');
+    $('#ssl').css('background-color','transparent');
+    $('#sspro').css('background-color','transparent');
+    $('#swm').css('background-color','transparent');
+    $('#sws').css('background-color','transparent');
   });
   
     /* EX 3 */
   $('.ex3').hover(function(){
-    $('#ss1').css('background-color','magenta');
-    $('#ss2').css('background-color','magenta');
-    $('#sw7').css('background-color','magenta');
+    $('#ssl').css('background-color','magenta');
+    $('#sspre').css('background-color','magenta');
+    $('#swm').css('background-color','magenta');
       },
   function(){
-    $('#ss1').css('background-color','transparent');
-    $('#ss2').css('background-color','transparent');
-    $('#sw7').css('background-color','transparent');
+    $('#ssl').css('background-color','transparent');
+    $('#sspre').css('background-color','transparent');
+    $('#swm').css('background-color','transparent');
   });
   
       /* EX 4 */
   $('.ex4').hover(function(){
-    $('#ss1').css('background-color','magenta');
-    $('#ss2').css('background-color','magenta');
-    $('#sw7').css('background-color','magenta');
+    $('#ssl').css('background-color','magenta');
+    $('#sspre').css('background-color','magenta');
+    $('#swm').css('background-color','magenta');
       },
   function(){
-    $('#ss1').css('background-color','transparent');
-    $('#ss2').css('background-color','transparent');
-    $('#sw7').css('background-color','transparent');
+    $('#ssl').css('background-color','transparent');
+    $('#sspre').css('background-color','transparent');
+    $('#swm').css('background-color','transparent');
   });
   
 });
