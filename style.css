@@ -1,9 +1,24 @@
+/* Setting up background */
 body {
   background-color: white;
 }
 
-/* Setting up columns */
+/* Formatting Text */
+h1{
+  color:black;
+  /* opacity: 0.5; */
+}
+h2{
+  color:black;
+  margin-top:10px;
+  margin-bottom:10px;
+  /* opacity: 0.5; */
+}
+p{
+  color: black;
+}
 
+/* Setting up columns */
 * {
   box-sizing: border-box;
 }
@@ -27,6 +42,7 @@ body {
   clear: both;
 }
 
+/* Highlighting stuff in yellow when you hover over it for no reason */
 p:hover {
        background-color: yellow;
 }
