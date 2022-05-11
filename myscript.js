@@ -3,7 +3,7 @@ $(document).ready(function(){
   /* WD AM Experiences*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ssc').css('background-color','rbg(255,0,255,0.5)');
+    $('#ssc').css('background-color','rbga(255,0,255,0.5)');
     $('#swm').css('background-color','magenta');
     $('#sws').css('background-color','magenta');
   },
