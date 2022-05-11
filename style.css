@@ -2,6 +2,8 @@ body {
   background-color: white;
 }
 
+/* Setting up columns */
+
 * {
   box-sizing: border-box;
 }
