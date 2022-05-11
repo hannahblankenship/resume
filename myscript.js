@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('.ex1').hover(function(){
-    $('.sc1').css('background-color','green');
+    $('.sc1').css('background-color','yellow');
   },
   function(){
     $('.sc1').css('background-color','magenta');  
