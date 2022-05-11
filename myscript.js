@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('#ss2').css('background-color','magenta');
   },
   function(){
-    $('#sc1').css('background-color','white');
+    $('#sc1').css('background-color','none');
     $('#ss2').css('background-color','white');
   });
 });
