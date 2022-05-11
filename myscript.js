@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  $('.wd_am').hover(function(){
-    $('.skill').css('background-color','green');
+  $('.ex1').hover(function(){
+    $('.sc1').css('background-color','green');
   },
   function(){
-    $('.skill').css('background-color','magenta');  
+    $('.sc1').css('background-color','magenta');  
   });
 });
