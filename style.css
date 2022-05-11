@@ -10,14 +10,18 @@ h1{
   font-family: Helvetica, Arial, sans-serif;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  /* opacity: 0.5; */
 }
 h2{
   color:green;
   font-family: Helvetica, Arial, sans-serif;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  /* opacity: 0.5; */
+}
+h3{
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 p{
   color: black;
