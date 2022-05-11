@@ -12,7 +12,8 @@ h1{
 }
 h2{
   color:green;
-  line-height: 0.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-family: Helvetica, Arial, sans-serif;
   /* opacity: 0.5; */
 }
