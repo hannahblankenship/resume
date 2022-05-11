@@ -6,6 +6,8 @@ body {
 /* Formatting Text */
 h1{
   color:black;
+  text-decoration: overline;
+  font-family: Helvetica, Arial, sans-serif;
   /* opacity: 0.5; */
 }
 h2{
