@@ -4,6 +4,6 @@ $(document).ready(function(){
       $('.skill').css('background-color','cyan');
   },
                     function(){
-    $('.skill').css('background-color','magenta');  
+      $('.skill').css('background-color','magenta');  
   });
 });
