@@ -8,13 +8,15 @@ h1{
   color:black;
   text-decoration: overline;
   font-family: Helvetica, Arial, sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   /* opacity: 0.5; */
 }
 h2{
   color:green;
+  font-family: Helvetica, Arial, sans-serif;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-family: Helvetica, Arial, sans-serif;
   /* opacity: 0.5; */
 }
 p{
