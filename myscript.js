@@ -7,7 +7,7 @@ $(document).ready(function(){
   /* WD AM Experiences*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ssc').highlight; /*communication*/
+    $('#ssc').css(highlight); /*communication*/
     $('#swm').css('background-color','magenta'); /*microsoft office highlight*/
     $('#sws').css('background-color','magenta'); /*salesforce highlight*/
   },
