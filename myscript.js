@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
   /* Highlighted Skills: */
-  /* var highlight = ('background-color','magenta');
-  var clr = css('background-color','transparent'); */
+  var highlight = ('background-color','magenta');
+  /* var clr = css('background-color','transparent'); */
   
   /* WD AM Experiences*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ssc').css('background-color','magenta'); /*communication*/
+    $('#ssc').css(highlight); /*communication*/
     $('#swm').css('background-color','magenta'); /*microsoft office highlight*/
     $('#sws').css('background-color','magenta'); /*salesforce highlight*/
   },
