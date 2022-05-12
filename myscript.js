@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
   /* Highlighted Skills: */
-  var highlight = ('background-color','magenta');
+  var highlight = ('background-color','green');
+  var highlights = css('background-color','blue');
   /* var clr = css('background-color','transparent'); */
   
   /* WD AM Experiences*/
@@ -19,7 +20,7 @@ $(document).ready(function(){
   
   /* EX 2 */
   $('.ex2').hover(function(){
-    $('#ssc').css('background-color','magenta'); 
+    $('#ssc').highlights; 
     $('#ssl').css('background-color','magenta');
     $('#sspm').css('background-color','magenta');
     $('#swm').css('background-color','magenta');
