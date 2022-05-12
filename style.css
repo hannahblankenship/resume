@@ -35,6 +35,14 @@ p{
   margin-bottom: 0.2em;
 }
 
+.date{
+  text-indent: 1em;
+}
+
+.ex(
+  line-height: 1.5;
+)
+
 /* Setting up columns */
 * {
   box-sizing: border-box;
