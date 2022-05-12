@@ -1,6 +1,6 @@
 /* Setting up background */
 body {
-  background-color: rgba(0,0,0,0.5);
+  background-color: white;
 }
 
 /* Formatting Text */
@@ -23,7 +23,7 @@ h3{
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 }
-h4{
+h5{
   color:black;
   font-family: Helvetica, Arial, sans-serif;
   margin-top: 0.3em;
