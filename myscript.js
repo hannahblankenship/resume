@@ -1,23 +1,25 @@
 $(document).ready(function(){
 
-  var communication = $('#ssc').css('background-color','magenta');
+  /* Highlighted Skills: */
+  var highlight = ('background-color','magenta');
+  var clr = css('background-color','transparent');
   
   /* WD AM Experiences*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    communication;
-    $('#swm').css('background-color','magenta');
-    $('#sws').css('background-color','magenta');
+    $('#ssc').highlight; /*communication*/
+    $('#swm').css('background-color','magenta'); /*microsoft office highlight*/
+    $('#sws').css('background-color','magenta'); /*salesforce highlight*/
   },
   function(){
-    $('#ssc').css('background-color','transparent');
-    $('#swm').css('background-color','transparent');
-    $('#sws').css('background-color','transparent');
+    $('#ssc').clr; /*communication*/
+    $('#swm').css('background-color','transparent'); /*microsoft office clear*/
+    $('#sws').css('background-color','transparent'); /*salesforce clear*/
   });
   
   /* EX 2 */
   $('.ex2').hover(function(){
-    $('#ssc').css('background-color','magenta');
+    $('#ssc').css('background-color','magenta'); 
     $('#ssl').css('background-color','magenta');
     $('#sspm').css('background-color','magenta');
     $('#swm').css('background-color','magenta');
