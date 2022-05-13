@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
   var skill_color = 'magenta';
-  var skill_clear = 'transparent;
+  var skill_clear = 'transparent';
   
   /* WD AM Experiences*/
   /* EX 1 */
