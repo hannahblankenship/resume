@@ -1,20 +1,20 @@
 $(document).ready(function(){
   
-  var skill_color = 'magenta';
+  var skill_color = 'Coral';
   var skill_clear = 'transparent';
   
   /* WD AM Experiences (done)*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ssc').css('text-shadow', '2px 2px 5px magenta'); /*communication highlight*/
-    $('#sspm').css('font-weight', 'bold'); /*project management highlight*/
+    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#sspm').css('background-color', skill_color); /*project management highlight*/
     $('#sst').css('background-color', skill_color); /*teamwork highlight*/
     $('#swm').css('background-color', skill_color); /*microsoft office highlight*/
     $('#sws').css('background-color', skill_color); /*salesforce highlight*/
   },
   function(){
-    $('#ssc').css('text-shadow', 'none'); /*communication clear*/
-    $('#sspm').css('font-weight', 'normal'); /*project management clear*/
+    $('#ssc').css('background-color', skill_clear); /*communication clear*/
+    $('#sspm').css('background-color', skill_clear); /*project management clear*/
     $('#sst').css('background-color', skill_clear); /*teamwork clear*/
     $('#swm').css('background-color', skill_clear); /*microsoft office clear*/
     $('#sws').css('background-color', skill_clear); /*salesforce clear*/
