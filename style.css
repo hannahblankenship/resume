@@ -69,7 +69,3 @@ p{
   clear: both;
 }
 
-/* Highlighting stuff in yellow when you hover over it for no reason */
-p:hover {
-       background-color: green;
-}
