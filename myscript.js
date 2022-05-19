@@ -3,7 +3,7 @@ $(document).ready(function(){
   var skill_color = 'magenta';
   var skill_clear = 'transparent';
   
-  /* WD AM Experiences*/
+  /* WD AM Experiences (done)*/
   /* EX 1 */
   $('.ex1').hover(function(){
     $('#ssc').css('background-color', skill_color); /*communication highlight*/
@@ -67,7 +67,7 @@ $(document).ready(function(){
   });
   
   
-  /* WD FAE Experiences*/
+  /* WD FAE Experiences (done)*/
   /* EX 1 */
   $('.ex5').hover(function(){
     $('#ssc').css('background-color', skill_color); /*communication highlight*/
@@ -141,7 +141,7 @@ $(document).ready(function(){
   });
   
   
-    /* Cognosos EE Experiences*/
+    /* Cognosos EE Experiences (done)*/
   /* EX 1 */
   $('.ex9').hover(function(){
     $('#cp').css('background-color', skill_color); /*python highlight*/
@@ -187,25 +187,59 @@ $(document).ready(function(){
   });
   
   
-      /* Eaton EE Experiences*/
+      /* Eaton EE Experiences (done)*/
   /* EX 1 */
   $('.ex12').hover(function(){
     $('#cp').css('background-color', skill_color); /*python highlight*/
     $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
-    $('#hws').css('background-color', skill_color); /*spectrum analyzer highlight*/
-    $('#swgo').css('background-color', skill_color); /*google suite highlight*/
+    $('#swm').css('background-color', skill_color); /*microsoft office highlight*/
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
   },
   function(){
     $('#cp').css('background-color', skill_clear); /*python clear*/
     $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
-    $('#hws').css('background-color', skill_clear); /*spectrum analyzer clear*/
-    $('#swgo').css('background-color', skill_clear); /*google suite clear*/
+    $('#swm').css('background-color', skill_clear); /*microsoft office clear*/
     $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
   });
   
   /* EX 2 */
   $('.ex13').hover(function(){
+    $('#ssl').css('background-color', skill_color); /*leadership highlight*/
+    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#sst').css('background-color', skill_color); /*teamwork highlight*/
+    $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+    $('#cp').css('background-color', skill_color); /*python highlight*/
+  },
+  function(){
+    $('#ssl').css('background-color', skill_clear); /*leadership clear*/
+    $('#ssc').css('background-color', skill_clear); /*communication clear*/
+    $('#sst').css('background-color', skill_clear); /*teamwork clear*/
+    $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+    $('#cp').css('background-color', skill_clear); /*python clear*/
+  });
+  
+  /* EX 3 */
+  $('.ex14').hover(function(){
+    $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+    $('#ssp').css('background-color', skill_color); /*presentation highlight*/
+      },
+  function(){
+    $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+    $('#ssp').css('background-color', skill_clear); /*presentation clear*/
+  });
+  
+  
+        /*CREATE-X Project*/
+  /* EX 1 */
+  $('.ex15').hover(function(){
+    $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+  },
+  function(){
+    $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+  });
+  
+  /* EX 2 */
+  $('.ex16').hover(function(){
     $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
   },
@@ -215,7 +249,7 @@ $(document).ready(function(){
   });
   
   /* EX 3 */
-  $('.ex14').hover(function(){
+  $('.ex17').hover(function(){
     $('#cp').css('background-color', skill_color); /*python highlight*/
     $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
     $('#hws').css('background-color', skill_color); /*spectrum analyzer highlight*/
@@ -232,4 +266,23 @@ $(document).ready(function(){
     $('#ssp').css('background-color', skill_clear); /*presentation clear*/
   });
   
+  
+        /* Art & AI Project*/
+  /* EX 1 */
+  $('.ex18').hover(function(){
+    $('#cp').css('background-color', skill_color); /*python highlight*/
+    $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
+    $('#hws').css('background-color', skill_color); /*spectrum analyzer highlight*/
+    $('#swgo').css('background-color', skill_color); /*google suite highlight*/
+    $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+  },
+  function(){
+    $('#cp').css('background-color', skill_clear); /*python clear*/
+    $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
+    $('#hws').css('background-color', skill_clear); /*spectrum analyzer clear*/
+    $('#swgo').css('background-color', skill_clear); /*google suite clear*/
+    $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+  });
+  
+    
 });
