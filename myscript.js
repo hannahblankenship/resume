@@ -7,7 +7,7 @@ $(document).ready(function(){
   /* EX 1 */
   $('.ex1').hover(function(){
     $('#ssc').css('text-shadow', '2px 2px 5px magenta'); /*communication highlight*/
-    $('#sspm').css('background-color', skill_color); /*project management highlight*/
+    $('#sspm').css('font-weight', 'bold'); /*project management highlight*/
     $('#sst').css('background-color', skill_color); /*teamwork highlight*/
     $('#swm').css('background-color', skill_color); /*microsoft office highlight*/
     $('#sws').css('background-color', skill_color); /*salesforce highlight*/
