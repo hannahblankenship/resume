@@ -6,7 +6,7 @@ $(document).ready(function(){
   /* WD AM Experiences (done)*/
   /* EX 1 */
   $('.ex1').hover(function(){
-    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#ssc').css('text-shadow', '2px 2px 5px magenta'); /*communication highlight*/
     $('#sspm').css('background-color', skill_color); /*project management highlight*/
     $('#sst').css('background-color', skill_color); /*teamwork highlight*/
     $('#swm').css('background-color', skill_color); /*microsoft office highlight*/
