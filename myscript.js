@@ -13,8 +13,8 @@ $(document).ready(function(){
     $('#sws').css('background-color', skill_color); /*salesforce highlight*/
   },
   function(){
-    $('#ssc').css('background-color', skill_clear); /*communication clear*/
-    $('#sspm').css('background-color', skill_clear); /*project management clear*/
+    $('#ssc').css('text-shadow', 'none'); /*communication clear*/
+    $('#sspm').css('font-weight', 'normal'); /*project management clear*/
     $('#sst').css('background-color', skill_clear); /*teamwork clear*/
     $('#swm').css('background-color', skill_clear); /*microsoft office clear*/
     $('#sws').css('background-color', skill_clear); /*salesforce clear*/
