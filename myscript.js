@@ -233,55 +233,65 @@ $(document).ready(function(){
   /* EX 1 */
   $('.ex15').hover(function(){
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#ssl').css('background-color', skill_color); /*leadership highlight*/
+    $('#sspm').css('background-color', skill_color); /*project management highlight*/
+    $('#sst').css('background-color', skill_color); /*teamwork highlight*/
+    $('#swp').css('background-color', skill_color); /*python highlight*/
+    $('#hwa').css('background-color', skill_color); /*arduino highlight*/
+    $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
   },
   function(){
     $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+    $('#ssc').css('background-color', skill_clear); /*communication clear*/
+    $('#ssl').css('background-color', skill_clear); /*leadership clear*/
+    $('#sspm').css('background-color', skill_clear); /*project management clear*/
+    $('#sst').css('background-color', skill_clear); /*teamwork clear*/
+    $('#swp').css('background-color', skill_clear); /*python clear*/
+    $('#hwa').css('background-color', skill_clear); /*arduino clear*/
+    $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
   });
   
   /* EX 2 */
   $('.ex16').hover(function(){
-    $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
+    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#sspm').css('background-color', skill_color); /*project management highlight*/
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
   },
   function(){
-    $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
+    $('#ssc').css('background-color', skill_clear); /*communication clear*/
+    $('#sspm').css('background-color', skill_clear); /*project management clear*/
     $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
   });
   
   /* EX 3 */
   $('.ex17').hover(function(){
-    $('#cp').css('background-color', skill_color); /*python highlight*/
-    $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
-    $('#hws').css('background-color', skill_color); /*spectrum analyzer highlight*/
-    $('#swgo').css('background-color', skill_color); /*google suite highlight*/
+    $('#swm').css('background-color', skill_color); /*microsoft office highlight*/
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
     $('#ssp').css('background-color', skill_color); /*presentation highlight*/
+    $('#ssc').css('background-color', skill_color); /*communication highlight*/
+    $('#ssl').css('background-color', skill_color); /*leadership highlight*/
       },
   function(){
-    $('#cp').css('background-color', skill_clear); /*python clear*/
-    $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
-    $('#hws').css('background-color', skill_clear); /*spectrum analyzer clear*/
-    $('#swgo').css('background-color', skill_clear); /*google suite clear*/
+    $('#swm').css('background-color', skill_clear); /*microsoft office clear*/
     $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
     $('#ssp').css('background-color', skill_clear); /*presentation clear*/
+    $('#ssc').css('background-color', skill_clear); /*communication clear*/
+    $('#ssl').css('background-color', skill_clear); /*leadership clear*/
   });
   
   
         /* Art & AI Project*/
   /* EX 1 */
   $('.ex18').hover(function(){
-    $('#cp').css('background-color', skill_color); /*python highlight*/
-    $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
-    $('#hws').css('background-color', skill_color); /*spectrum analyzer highlight*/
-    $('#swgo').css('background-color', skill_color); /*google suite highlight*/
     $('#ssps').css('background-color', skill_color); /*problem solving highlight*/
+    $('#sst').css('background-color', skill_color); /*teamwork highlight*/
+    $('#swp').css('background-color', skill_color); /*python highlight*/
   },
   function(){
-    $('#cp').css('background-color', skill_clear); /*python clear*/
-    $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
-    $('#hws').css('background-color', skill_clear); /*spectrum analyzer clear*/
-    $('#swgo').css('background-color', skill_clear); /*google suite clear*/
     $('#ssps').css('background-color', skill_clear); /*problem solving clear*/
+    $('#sst').css('background-color', skill_clear); /*teamwork clear*/
+    $('#swp').css('background-color', skill_clear); /*python clear*/
   });
   
     
