@@ -238,7 +238,7 @@ $(document).ready(function(){
     $('#sspm').css('background-color', skill_color); /*project management highlight*/
     $('#sst').css('background-color', skill_color); /*teamwork highlight*/
     $('#cp').css('background-color', skill_color); /*python highlight*/
-    $('#hwa').css('background-color', skill_color); /*arduino highlight*/
+    $('#hward').css('background-color', skill_color); /*arduino highlight*/
     $('#hwo').css('background-color', skill_color); /*oscilloscope highlight*/
   },
   function(){
@@ -248,7 +248,7 @@ $(document).ready(function(){
     $('#sspm').css('background-color', skill_clear); /*project management clear*/
     $('#sst').css('background-color', skill_clear); /*teamwork clear*/
     $('#cp').css('background-color', skill_clear); /*python clear*/
-    $('#hwa').css('background-color', skill_clear); /*arduino clear*/
+    $('#hward').css('background-color', skill_clear); /*arduino clear*/
     $('#hwo').css('background-color', skill_clear); /*oscilloscope clear*/
   });
   
